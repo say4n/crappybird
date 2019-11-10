@@ -5,7 +5,7 @@ a clone of the flappy bird game
 
 ### build & run
 
-`make & build/crappybird`
+`make && build/crappybird`
 
 
 ### screenshot
