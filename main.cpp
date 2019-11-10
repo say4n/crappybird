@@ -210,7 +210,7 @@ Pipe* getNewPipe() {
     p->nPosX = getMaxPipeX() + PIPE_SEPARATION;
 
     if (p->nPosX < nTerminalWidth) {
-        p->nPosX = nTerminalWidth + std::rand() % nTerminalWidth;
+        p->nPosX = nTerminalWidth + 1;
     }
 
     // fprintf(stderr,
